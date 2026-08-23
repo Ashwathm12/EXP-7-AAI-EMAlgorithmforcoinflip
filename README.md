@@ -170,7 +170,7 @@ To run this script, kindly ensure you have the following Python libraries instal
 ### Command
 
 ```bash
-python3 coin_flipping_em.py
+python3 EMCOINFLIP.py
 ```
 
 ## Code guide
