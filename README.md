@@ -184,9 +184,3 @@ python3 coin_flipping_em.py
 | `fit_two_coins()` | Repeats the E-step and M-step until convergence. |
 | `main()` | Defines the video’s five experiments, runs EM, and prints the results. |
 
-## Difference from a Hidden Markov Model
-
-In this experiment, a single hidden coin is selected **once per complete 10-toss experiment**. There are no transition probabilities, and the coin cannot change halfway through E1, E2, and so on.
-
-An HMM would be different: it could assign a hidden coin to every individual toss and allow transitions between coins over time. The original `baum_welch.py` uses that more general HMM approach; `coin_flipping_em.py` is the direct implementation of the video’s experiment.
-
